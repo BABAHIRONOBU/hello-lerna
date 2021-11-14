@@ -4,5 +4,14 @@
   ],
   "version": "independent",
   "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "*.md",
+        "tsconfig.json"
+      ],
+      "message": "chore(release): publish"
+    }
+  },
   "useWorkspaces": true
 }
